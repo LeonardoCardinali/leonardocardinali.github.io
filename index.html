@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Ricercatore e Musicista</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+        }
+        body {
+            font-family: ui-sans-serif, system-ui, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background: var(--light);
+            color: var(--dark);
+        }
+        header {
+            background: var(--dark);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            position: sticky;
+            top: 0;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            z-index: 1000;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: bold;
+        }
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        .media-container img, .media-container video {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Il Tuo Nome</h1>
+    <p>Ricercatore | Musicista | Slackliner | Giocoliere</p>
+</header>
+
+<nav>
+    <a href="#ricerca">Ricerca</a>
+    <a href="#musica">Musica</a>
+    <a href="#media">Media</a>
+    <a href="#curriculum">CV</a>
+    <a href="#hobby">Hobby</a>
+</nav>
+
+<section id="ricerca">
+    <h2>Articoli e Ricerca</h2>
+    <div class="card">
+        <h3>Pubblicazioni Selezionate</h3>
+        <ul>
+            <li><strong>Titolo Articolo 1</strong> (2025) Pubblicato su Journal Name.</li>
+            <li><strong>Titolo Articolo 2</strong> (2024) Conference Proceedings.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="musica">
+    <h2>Calendario Busking e Progetti</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Evento / Luogo</th>
+                <th>Progetto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>20 Marzo 2026</td>
+                <td>Piazza Castello, Torino</td>
+                <td>Busking Solista</td>
+            </tr>
+            <tr>
+                <td>15 Aprile 2026</td>
+                <td>Festival Jazz</td>
+                <td>Trio Sperimentale</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="media">
+    <h2>Galleria Foto e Video</h2>
+    <div class="grid">
+        <div class="media-container">
+            <h3>Performance</h3>
+            <img src="foto1.jpg" alt="Descrizione foto">
+        </div>
+        <div class="media-container">
+            <h3>Video Live</h3>
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Il tuo browser non supporta i video.
+            </video>
+        </div>
+    </div>
+</section>
+
+<section id="curriculum">
+    <h2>Curriculum Vitae</h2>
+    <p>Scarica il mio CV completo in formato PDF:</p>
+    <a href="cv_ricercatore_musicista.pdf" class="card" style="display:inline-block; text-decoration:none;">
+        📥 Download CV (PDF)
+    </a>
+</section>
+
+<section id="hobby">
+    <h2>Altre Attività</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Slacklining</h3>
+            <p>Pratica di equilibrio dinamico su fettuccia ad alta tensione.</p>
+        </div>
+        <div class="card">
+            <h3>Giocoleria</h3>
+            <p>Manipolazione di oggetti e pattern complessi.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p style="text-align:center; padding: 2rem;">© 2026 | Creato con GitHub Pages</p>
+</footer>
+
+</body>
+</html>
