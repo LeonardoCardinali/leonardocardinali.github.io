@@ -10,7 +10,23 @@
             --dark: #020617;
             --light: #f8fafc;
         }
+
         body {
+             /* Percorso relativo all'immagine caricata nel tuo repository */
+            background-image: url('img/sfondo2.jpg');
+            
+            /* Forza la ripetizione sia in orizzontale che in verticale */
+            background-repeat: repeat;
+            
+            /* Mantiene lo sfondo fisso durante lo scroll (opzionale) */
+            background-attachment: fixed;
+            
+            /* Definisce la dimensione della singola 'piastrella' se necessario */
+            background-size: 200px; 
+            
+            /* Colore di fallback in caso l'immagine non venga caricata */
+            background-color: var(--light);
+            
             font-family: ui-sans-serif, system-ui, sans-serif;
             line-height: 1.6;
             margin: 0;
