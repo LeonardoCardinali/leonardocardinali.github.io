@@ -2,9 +2,9 @@
 
 This repo is my first try at creating a personal website using GitHub Pages!
 
-🔭 I’m currently working on creating the main pages of the website.
+🔭 I’m currently working on filling and improving the web page.
+
 📫 How to reach me: leonardo.cardinali24@gmail.com
-⚡ Fun fact: I'm physically really flexible
 
 <!--
 **LeonardoCardinali/leonardocardinali** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
